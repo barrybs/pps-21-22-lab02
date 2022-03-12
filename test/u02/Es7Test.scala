@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test
 import Es7._
 import Es7.Shape._
 
-
 class Es7Test
 
   @Test def testRectanglePerimeter() : Unit =
@@ -27,4 +26,3 @@ class Es7Test
 
   @Test def testCircleArea() : Unit =
     assertEquals(Shape.area(Shape.Circle(10)),10*10*Math.PI)
-

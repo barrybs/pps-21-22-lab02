@@ -14,4 +14,3 @@ class Es2Test
   @Test def testNonEmpty(): Unit =
     assertFalse(notEmpty(""))
     assertTrue(notEmpty("a"))
-

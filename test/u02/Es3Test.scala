@@ -6,7 +6,6 @@ import Es3.*
 
 class Es3Test
   //Tests for Es 1c
-
   @Test def testNonEmptyGeneric() : Unit =
     assertFalse(notEmptyGeneric(""))
     assertTrue(notEmptyGeneric("a"))
