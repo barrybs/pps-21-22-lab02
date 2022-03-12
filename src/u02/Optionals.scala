@@ -20,6 +20,8 @@ object Optionals extends App:
       case Some(a) => f(a)
       case _ => None()
 
+  
+  
   import Option.*
   val s1: Option[Int] = Some(1)
   val s2: Option[Int] = Some(2)

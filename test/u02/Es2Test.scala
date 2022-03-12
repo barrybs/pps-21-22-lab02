@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import u02.Es2.empty
 import u02.Es2.notEmpty
 
-class Es2Test {
+class Es2Test
   //Tests for Es 1b
   @Test def testEmpty(): Unit =
     assertTrue(empty(""))
@@ -14,4 +14,4 @@ class Es2Test {
   @Test def testNonEmpty(): Unit =
     assertFalse(notEmpty(""))
     assertTrue(notEmpty("a"))
-}
+
