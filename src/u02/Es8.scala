@@ -27,7 +27,7 @@ object Es8 {
       case Some(n) if pred(n) => Some(n)
       case _ => None()
 
-    def map[A](opt: Option[Int])(pred: Int => Boolean): Option[Boolean] = opt match
+    def map[A](opt: Option[A])(pred: A => Boolean): Option[Boolean] = opt match
       case Some(n) if pred(n) => Some(true)
       case Some(n) if !pred(n) => Some(false)
       case _ => None()
